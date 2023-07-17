@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JC Signs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .text-block {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="Images/JCSIGNS_LOGO.png" alt="JC Signs Logo" width="35%">
+    </header>
+    <!-- Navigation buttons -->
+    <div class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a class="active" href="#home">Gallery</a>
+        <a href="Pricing.html">Pricing</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+    <article>
+        <h2 style="text-align:center">Some of our most Recent work</h2>
+
+        <!-- Slides with pictures make sure to continue to update as necessary -->
+        <div class="gallerycontainer">
+            <div class="mySlides">
+                <div class="numbertext">1 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/ASP_Party_Trailer.jpeg" alt="party Trailer wrapping"style="width:100%"></div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 /10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/Carrols%20Tires.jpeg" alt="Carrols Tires Wrapping" style="width:100%"></div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/ElToro_Example.jpeg" alt="El Toro Light Sign" style="width:100%"></div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/Idealfurniture.jpeg" style="width:100%"></div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/Pizza_light_Example.jpeg" style="width:100%"></div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/TacoTruck_Example.jpeg" style="width:100%"></div>
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/TravelAgency.png" style="width:100%"></div>
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/Truck_example.jpeg" style="width:100%"></div>
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/Window.jpeg" style="width:100%"></div>
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">10 / 10</div>
+                <div class="rectangle box2"><img src="Images/gallery/Carousel/Window_Decal.jpeg" style="width:100%"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="rowg">
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/ASP_Party_Trailer.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Ideal Furniture Signage">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/Carrols%20Tires.jpeg" style="width:100%" onclick="currentSlide(2)" alt="El Torro Super Market Sign">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/ElToro_Example.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Light Sign for Curry Pizza">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/Idealfurniture.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Ideal Furniture Signage">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/Pizza_light_Example.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Curry Pizza Light Sign">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/TacoTruck_Example.jpeg" style="width:100%" onclick="currentSlide(6)" alt="California Taco Truck wrap">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/TravelAgency.png" style="width:100%" onclick="currentSlide(7)" alt="Travel Agency Window Decals">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/Truck_example.jpeg" style="width:100%" onclick="currentSlide(8)" alt="Don Cheps Trailer Wrap">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/Window.jpeg" style="width:100%" onclick="currentSlide(9)" alt="Bakery Window Decal">
+                </div>
+                <div class="columng">
+                    <img class="demo cursor" src="Images/gallery/Carousel/Window_Decal.jpeg" style="width:100%" onclick="currentSlide(10)" alt="Insurance Signage">
+                </div>
+            </div>
+        </div>
+
+        <!--This is the Gallery Part of the project make sure to update this with the most recent work as well-->
+        <H1 style="text-align: center">More work we have done!</H1>
+
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/2D_sign_image.jpeg" alt="Joel Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box2"><img src="Images/gallery/beauty_salon_image.jpeg" alt="Daniella Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Cemelas_fruit_truck.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/YelllowTruck_Decal.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Cute_Wall_decor.jpeg" alt="Joel Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box3"><img src="Images/gallery/Dans_a_c_image.jpeg" alt="Daniella Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Dentist_windowDecal_image.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Gualadajara_Supermarket_image.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/gas_pump_1.jpeg" alt="Joel Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box2"><img src="Images/gallery/Gas_station_image.jpeg" alt="Daniella Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Iglesia_centro_sign.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Indian_food_image.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <div class="box box3"><img src="Images/gallery/Menu_sign.jpeg" alt="Joel Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box2"><img src="Images/gallery/Paige_TS_image.jpeg" alt="Daniella Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Premier_RE_image.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <div class="box box2"><img src="Images/gallery/Pupusas_sign.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <div class="box box3"><img src="Images/gallery/Smoke_shop_image.jpeg" alt="Joel Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Wayback_burgers_image.jpeg" alt="Daniella Martinez"></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Wayback_burgers_sign.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <div class="box box1"><img src="Images/gallery/Cute_kitchen_wall_decor.jpeg" alt="Laura Martinez"></div>
+                </div>
+            </div>
+
+        </div>
+    </article>
+
+    <footer>
+
+       <a href="https://www.facebook.com/Jcsigns4" class="fa"><img src="Images/Facebook.png" width="25px" height="25px"></a>
+        <a href="https://www.facebook.com/Jcsigns4" class="fa"><img src="Images/Instagram_logo_2022.png"width="25px" height="25px"></a>
+        <a href="https://www.facebook.com/Jcsigns4" class="fa"><img src="Images/Linkedin_logo.png"width="25px" height="25px"></a>
+    </footer>
+    <!-- Script to make the carousel turn -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

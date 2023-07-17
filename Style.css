@@ -1,0 +1,347 @@
+/*Body Settings and colors*/
+
+/*THIS BELONGS ON ALL THE PAGES TO KEEP THEM UNIFORM*/
+
+Body {
+    background-color: rgba(255, 250, 25, 1);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    float: left;
+    margin: auto;
+    padding: 15px;
+    width: 100%;
+    background-color: #f1f1f1;
+    z-index: 60;
+}
+
+footer {
+    background-color: #333;
+    padding: 5px;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    z-index: 60;
+}
+
+
+/*Text setting and sizing */
+h1 {
+    font-family: 'source pro sans', sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'source pro sans', sans-serif;
+    font-size: 26px;
+}
+
+h3 {
+    font-family: 'source pro sans', sans-serif;
+}
+
+p {
+    font-family: 'source pro sans', sans-serif;
+    z-index: 20;
+}
+
+p1 {
+    font-family: 'source pro sans', sans-serif;
+}
+
+/*Header Settings and colors*/
+header {
+    background-image: url(Images/JCSigns_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    text-align: center;
+    font-size: 35px;
+    color: #BFF205;
+}
+
+/*Top Nav button settings*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+     
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+     width: 20%;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/*Social Media Form for the bottom of the page*/
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+/*PHOTO GRID EXAMPLES ACROSS ALL PAGES */
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin: px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: Left;
+    width: 24.99%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    align-content: center;
+    text-align: center;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*THIS IS TO KEEP ALL THE PHOTOGRAPHS UNIFORM ANY UPDATES TO THIS MUST BE MADE ON ALL PAGES*/
+
+.box img {
+    width: 200px;
+    height: 200px;
+}
+
+.rectangle img {
+    width: 600px;
+    height: 400px;
+}
+
+
+.box1 img {
+    object-fit: cover;
+}
+
+.box2 img {
+    object-fit: scale-down;
+}
+
+.box3 img {
+    object-fit: fill;
+}
+
+.box4 img {
+    object-fit: none;
+}
+
+/*SPECIFFICALLY FOR GALLERY PAGE CAROUSEL*/
+
+
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.gallerycontainer {
+    position: relative;
+    background-color: #DCDCDC;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10%;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 2px 5px;
+    color: white;
+    font-family: monospace;
+    font-size: 10px;
+}
+
+.rowg:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ten columns side by side */
+.columng {
+    float: left;
+    width: 10%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/*THIS IS SPECIFICALLY FOR GALLERY PAGE MAYBE REMOVED IF UNNECCESARY, CHECK FIRST!*/
+.gridresponsive {
+    padding: 0 0px;
+    float: left;
+    width: 24.99999%
+}
+
+.grid {
+    border: 0px solid #ccc;
+}
+
+.grid:hover {
+    border: 1px solid #777;
+}
+
+.containerform{
+    width:100%;
+    height:100vh;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    padding:  2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: black;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0; 
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16 px;
+}
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: white;
+    font-size: 18px;
+    border: 0x;
+    outline: none;
+    cursor: pointer;
+    width:150px; 
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
